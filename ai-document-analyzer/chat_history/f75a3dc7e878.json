@@ -1,0 +1,23 @@
+{
+  "id": "f75a3dc7e878",
+  "title": "Summarise these documents in 5 bullet points",
+  "created_at": "2026-10-26T15:20:59",
+  "updated_at": "2026-10-26T15:20:59",
+  "message_count": 2,
+  "file_count": 1,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Summarise these documents in 5 bullet points",
+      "time": "15:20"
+    },
+    {
+      "role": "assistant",
+      "content": "**Summary of Book222.xlsx (Sheet1)**\n\n- **Content:** The sheet is a write-off register of 31 loan accounts. Its columns are Business_Name, Customer_Name, Loanaccountno, Writeoff_Amt, Writeoff_Date and DPD. Business units are STSL (15 accounts) and DIL (16 accounts).\n\n- **Total value:** Write-offs add up to about 63,395,103.90 (my calculation from the listed amounts).\n\n  | Business | Accounts | Write-off total |\n  |---|---|---|\n  | STSL | 15 | 26,566,491.90 |\n  | DIL | 16 | 36,828,612.00 |\n\n- **Timing:** There are two write-off dates.\n  - 2026-07-31: 5 accounts, all STSL, totalling 6,498,187.67.\n  - 2026-08-31: 26 accounts (all 16 DIL and 10 STSL), totalling 56,896,916.23.\n\n- **Size range:** The largest write-off is SINGH HOTEL (STSL, ABVJWSTS000000614335) at 5,951,198.71. The smallest is SHREE SALES CORPORATION at 5.00 (ABND_STS000000551748). That customer has a second account written off for 29,419.00.\n\n- **DPD (days past due) pattern:** All 16 DIL accounts have a DPD of 91. STSL accounts vary widely:\n  - The highest is 177, on both SHREE SALES CORPORATION accounts.\n  - Others include 149, 88, 57 and 27.\n  - Four STSL accounts show a DPD of 0 (HARPREET SINGH, NEW GRAND HOSIERY, VAHINI WATER PLANT, APPLE FANCY AND STATIONERY).\n\nThe file gives no explanation for the write-offs, including why accounts with a DPD of 0 were written off.",
+      "time": "15:20"
+    }
+  ],
+  "file_names": [
+    "Book222.xlsx"
+  ]
+}
